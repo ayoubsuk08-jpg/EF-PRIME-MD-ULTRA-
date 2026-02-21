@@ -10,7 +10,7 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< EF-PRIME-MD-ULTRA SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['265888123456'];
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',').map(v => v.trim()) : ['212674977850'];
 
 global.packname = process.env.PACKNAME || 'EF-PRIME-MD';
 global.author = process.env.AUTHOR || 'FrankKaumbaDev';
@@ -74,7 +74,7 @@ global.APIs = {
 }
 
 global.APIKeys = {
-	'https://api.hitori.pw': 'htrkey-77eb83c0eeb39d40',
+	'https://api.hitori.pw': 'EF-PRIME-MD_b9jX9NEw',
 	geminiApikey: ['AIzaSyD0lkGz6ZhKi_MHSSmJcCX3wXoDZhELPaQ','AIzaSyDnBPd_EhBfr73NssnThVQZYiKZVhGZewU','AIzaSyA94OZD-0V4quRbzPb2j75AuzSblPHE75M','AIzaSyB5aTYbUg2VQ0oXr5hdJPN8AyLJcmM84-A','AIzaSyB1xYZ2YImnBdi2Bh-If_8lj6rvSkabqlA']
 }
 
